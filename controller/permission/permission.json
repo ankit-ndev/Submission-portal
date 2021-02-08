@@ -1,0 +1,61 @@
+{
+  "students": {
+    "login": {
+      "roles": [
+        "public"
+      ]
+    },
+    "register": {
+      "roles": [
+        "public"
+      ]
+    },
+    "logout": {
+      "roles": [
+        "student"
+      ]
+    },
+    "viewAssignments": {
+      "roles": [
+        "student"
+      ]
+    },
+    "viewSubmissions": {
+      "roles": [
+        "student"
+      ]
+    }
+  },
+  "instructors": {
+    "login": {
+      "roles": [
+        "public"
+      ]
+    },
+    "register": {
+      "roles": [
+        "public"
+      ]
+    },
+    "logout": {
+      "roles": [
+        "instructor"
+      ]
+    },
+    "addAssignment": {
+      "roles": [
+        "instructor"
+      ]
+    },
+    "viewSubmissions": {
+      "roles": [
+        "instructor"
+      ]
+    },
+    "gradeSubmission": {
+      "roles": [
+        "instructor"
+      ]
+    }
+  }
+}

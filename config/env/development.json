@@ -1,0 +1,22 @@
+{
+  "environment": "development",
+  "port": 3002,
+  "db": {
+    "mongo": {
+      "uri": "172.16.1.4",
+      "port": "27017",
+      "options": {
+        "useNewUrlParser": true,
+        "poolSize": 5,
+        "connectTimeoutMS": 1000,
+        "useUnifiedTopology": true
+      },
+      "name": "sub-portal-dev"
+    }
+  },
+  "cache": {
+    "type": "memory",
+    "config": {}
+  },
+  "override_console": false
+}
